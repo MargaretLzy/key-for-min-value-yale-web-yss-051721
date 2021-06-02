@@ -10,5 +10,5 @@ name_hash.each do |key, value|
     result = key
   end
 end
-key
+result
 end
