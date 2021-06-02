@@ -2,9 +2,11 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
+  min=99999
 name_hash.each do |key, value|
-  if suite == :suite_a && name.start_with?("A")
-    winner = name
+  if min > value
+    value= min
   end
 end
+
 end
