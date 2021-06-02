@@ -8,5 +8,5 @@ name_hash.each do |key, value|
     value= min
   end
 end
-
+key
 end
